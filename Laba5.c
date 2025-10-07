@@ -13,8 +13,9 @@ int main()
 	z = 25.001;
 	b = (pow(y, cbrt(fabs(x))) + pow(cos(y), 3)) * (fabs(x - y) * (1 + sin(z) * sin(z)) / sqrt(x + y)) / (exp(fabs(x - y)) + x / 2);
 	printf("b = %.6f\n", b);
-	printf("Ожидаемый: 0.7121\n");
-	printf("Разница: %.6f\n", b - 0.7121);
+	printf("РћР¶РёРґР°РµРјС‹Р№: 0.7121\n");
+	printf("Р Р°Р·РЅРёС†Р°: %.6f\n", b - 0.7121);
 
 	return 0;
+
 }
